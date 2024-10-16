@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: "Montserrat";
+}
+.Dropdown-item-text {
+  cursor: pointer;
+}
+
+.Dropdown-item-text:hover {
+  background-color: #1A4870;
+  color: white;
+}
+.form-wrapper {
+  background-color: #f8f9fa;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: auto;
+}
+.form-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #333;
+}
+.form-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.form-label {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 8px;
+}
+.form-input {
+  width: 100%;
+  padding: 12px 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+.form-input:focus {
+  border-color: #1A4870;
+  outline: none;
+}
+.form-button {
+  background-color: #1A4870;
+  color: #fff;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+.form-button:hover {
+  background-color: #163d5e;
+  cursor: pointer;
+}
